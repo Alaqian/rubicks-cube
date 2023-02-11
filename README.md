@@ -26,4 +26,4 @@ Each face of the Cube will be represented as a 3x3 array:
 
 The whole cube can be represented as a 6x3x3 array:
 
-cube = [front, left, right, up, down, back]
+cube = [Front, Left, Right, Up, Down, Back]
