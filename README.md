@@ -1,8 +1,8 @@
 # Rubick's Cube Solver
 
-### Rubik's Cube Encoding
+## Rubik's Cube Encoding
 
-## Colors
+### Colors
 There are 6 colors in the cube. They will be encoded as follows:
 
 - `0` represent the color red
@@ -12,7 +12,7 @@ There are 6 colors in the cube. They will be encoded as follows:
 - `4` represent the color orange
 - `5` represent the color white
 
-## Faces
+### Faces
 A Rubik's Cube has 6 sides. Imagine you are looking directly at one of the faces ('Front'). There are 2 faces on the left and right ('Left', 'Right'), 2 faces directly above and below ('Up', 'Down'), and 1 face behind ('Back')
 
 Each face of the Cube will be represented as a 3x3 array:
