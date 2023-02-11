@@ -36,4 +36,6 @@ Each face of the cube can be rotated in one of three ways:
 - `1` represents rotating the face anti-clockwise
 - `2` represents rotating the face 180 degrees (or 2 clockwise/anti-clockwise rotations in a row)
 
-With 6 total faces, with 3 moves per face, there are a total of 18 moves. 'F0' would be rotating the front face clockwise. 'L1' would be to rotate the left face anti-clockwise as if you are facing the cube.
+With 6 total faces, with 3 moves per face, there are a total of 18 moves. 'F0' would be rotating the front face clockwise. 'L1' would be to rotate the left face anti-clockwise as if you are facing the left face.
+
+Every rotation would change the colors on all the other faces except the face directly opposite to the face being rotated. Rotating the front face would not effect the back face, the right face would not change the left face and rotating the up face woould not change the down face.
