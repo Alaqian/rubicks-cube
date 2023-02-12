@@ -1,5 +1,3 @@
-# Rubick's Cube Solver
-
 ## Rubik's Cube Encoding
 
 ### Colors
@@ -18,11 +16,11 @@ A Rubik's Cube has 6 sides. Imagine you are looking directly at one of the faces
 Each face of the Cube will be represented as a 3x3 array:
 
 - `0` or 'F' represents the 'front' face or the face you are looking at
-- `1` or 'L' represents the 'left' face
-- `2` or 'R' represents the 'right' face
-- `3` or 'U' represents the 'up' face
-- `4` or 'D' represents the 'down' face
-- `5` or 'B' represents the 'back' face
+
+- `2` or 'L' represents the 'left' face
+- `3` or 'R' represents the 'right' face
+- `4` or 'U' represents the 'up' face
+- `5` or 'D' represents the 'down' face
 
 The whole cube can be represented as a 6x3x3 array:
 
@@ -32,7 +30,7 @@ cube = [front, left, right, up, down, back]
 
 #### Rotating Faces
 Each face of the cube can be rotated in one of three ways:
-- `0` represents rotating the face clockwise
+- `-1` represents rotating the face clockwise
 - `1` represents rotating the face anti-clockwise
 - `2` represents rotating the face 180 degrees (or 2 clockwise/anti-clockwise rotations in a row)
 
